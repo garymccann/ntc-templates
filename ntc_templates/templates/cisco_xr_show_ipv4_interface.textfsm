@@ -19,7 +19,7 @@ Value RPF_CHECK (\S+)
 Start
   ^(Mon?)|(Tue?)|(Wed?)|(Thu?)|(Fri?)|(Sat?)|(Sun?)\s.*$$
   ^\S+\s+is -> Continue.Record
-  ^${INTERFACE}\sis\s${LINK_STATUS},\s+${PROTOCOL}\sprotocol\sis\s${PROTOCOL_STATUS}.*$$
+  ^${INTERFACE}\s+is\s+${LINK_STATUS},\s+${PROTOCOL}\s+protocol\s+is\s+${PROTOCOL_STATUS}.*$$
   ^\s+Vrf\s+is\s+${VRF}\s+\(vrfid\s+${VRF_ID}\)
   ^\s+Internet\s+address\s+is\s+${IP_ADDRESS}/?${PREFIX_LENGTH}\s*$$
   ^\s+Secondary\s+address\s+${SEC_IP_ADDRESS}/?${SEC_PREFIX_LENGTH}\s*$$
